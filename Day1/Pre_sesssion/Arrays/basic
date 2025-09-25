@@ -1,0 +1,6 @@
+1D_array
+
+its a linear data structure that stores element of same type in contiguous memory location
+Example--
+int[] arr=[1,2,3,44,5,6];
+
