@@ -1,0 +1,25 @@
+class Solution {
+    public int maxProfit(int[] arr) {
+        int n=arr.length;
+        int min=arr[0];
+        int max=0;
+        // int sum=0;
+        for(int i=0;i<n;i++){
+            if(min>arr[i]){
+                min=arr[i];
+            }else {
+//                 max = Math.max(max, arr[i] - min);
+//             }
+//         }return max;
+//     }
+// }
+            // }int sum=0;
+            // for(int j=i+1;j<n;j++){
+                int sum=arr[i]-min;  
+                if(max<sum){
+                    max=sum;
+                }
+            }
+        }return max;
+}
+}
