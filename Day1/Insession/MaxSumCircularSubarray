@@ -1,0 +1,27 @@
+class Solution {
+    public int maxSubarraySumCircular(int[] nums) {
+        int L_sum=kadenes_algo(nums);
+        int sum=0;
+        int n=nums.length;
+        for(int i=0;i<n;i++){
+            
+            sum=sum+nums[i];
+            nums[i]=nums[i]*-1;
+        }
+        int ans=kadenes_algo(nums);
+        sum=sum+ans;
+        if(sum==0){
+            return L_sum;
+        }
+        return Math.max(L_sum,sum);
+    }
+    public static int kadenes_algo(int[] arr){
+        int max1=arr[0];
+        int maxend=arr[0];
+        for(int i=1;i<arr.length;i++){
+            maxend=Math.max(arr[i],maxend+arr[i]);
+            max1=Math.max(max1,maxend);
+        }return max1;
+
+    }
+}
