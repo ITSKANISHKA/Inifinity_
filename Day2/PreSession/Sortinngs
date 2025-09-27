@@ -1,0 +1,32 @@
+Linear Search
+Linear search is the simplest form of searching algorithm. It involves scanning each element in a list until the desired element is found or the list ends. This algorithm is straightforward and does not require the data to be sorted.
+Advantages of Linear Search
+Simple to implement.
+Effective for small datasets.
+No requirement for data to be sorted.
+
+
+
+Binary Search
+Binary search is a faster searching and sorting algorithm, but it needs the data to be sorted first. It works by repeatedly splitting the search range in half. If the search key is smaller than the middle item, it looks in the lower half; if larger, in the upper half. This method efficiently finds the desired item in the sorted data.
+
+
+Bubble Sort
+Bubble Sort is a basic sorting algorithm that goes through the list. Also, checks neighboring elements, and swaps them if they are not in order. This process is repeated until the list is properly sorted.
+
+
+Selection Sort is a sorting algorithm that splits the list into two parts. One with sorted items and the other with unsorted items. It then finds the smallest (or largest) item in the unsorted part. Swaps it with the first unsorted item, and moves the boundary between sorted and unsorted parts. This process continues until the list is fully sorted.
+
+
+Insertion Sort
+Insertion Sort is an algorithm that creates a sorted list by adding one item at a time. However, it is not very efficient for big lists compared to other advanced algorithms like quicksort or mergesort.
+
+Merge Sort
+Merge Sort is a divide-and-conquer algorithm that was invented by John von Neumann in 1945. It is one of the key searching and sorting algorithms used in computer science. Merge Sort divides the input array into two halves, calls itself the two halves, and then merges the two sorted halves. This process helps efficiently organize data, which can improve the performance of search operations.
+
+
+Quick Sort
+Quick Sort is a sorting algorithm that divides the array into two parts, based on a chosen 'pivot' element. It then arranges elements less than the pivot on one side. As well as elements greater than the pivot on the other side. This process repeats until the array is fully sorted.
+
+Bucket Sort
+Bucket sort is a sorting algorithm that distributes the elements of an array into several groups, called buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm.
